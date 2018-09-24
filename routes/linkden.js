@@ -1,10 +1,11 @@
 var express = require('express');
 var router = express.Router();
-var path    = require("path");
 
-/* GET users listing. */
+
+/* GET home page. */
+
 router.get('/', function(req, res, next) {
-    res.sendFile(path.join(__dirname+'/../drop/'));
+    res.redirect('https://www.linkedin.com/in/pelane-sanon-496642171/')
 });
 
 
